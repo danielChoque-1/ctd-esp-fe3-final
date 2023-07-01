@@ -12,9 +12,9 @@ const Footer = () => {
       </div>
       <div className='redes'>
         <Link><img src="/images/ico-instagram.png" alt="" width={30}/></Link>
-        <Link><img src="../../public/images/ico-facebook.png" alt="imgFacebook" width={30}/></Link>
-        <Link><img src="../../public/images/ico-tiktok.png" alt="imgTk" width={30}/></Link>
-        <Link><img src="../../public/images/ico-whatsapp.png" alt="imgWap" width={30}/></Link>
+        <Link><img src="/images/ico-facebook.png" alt="imgFacebook" width={30}/></Link>
+        <Link><img src="/images/ico-tiktok.png" alt="imgTk" width={30}/></Link>
+        <Link><img src="/images/ico-whatsapp.png" alt="imgWap" width={30}/></Link>
       </div>
     </footer>
   )
