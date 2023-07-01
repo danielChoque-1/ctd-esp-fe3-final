@@ -5,7 +5,7 @@ const Footer = () => {
     <footer >
       <div className='footer-DH'>
         <p>Powered by</p>
-        <img src="../public/images/DH.png" alt='DH-logo' width={150}/>
+        <img src="/images/DH.png" alt='DH-logo' width={150}/>
       </div>
       <div className='logo-redes'>
         <img src="/images/ico-instagram.png" alt="" width={50}/>
