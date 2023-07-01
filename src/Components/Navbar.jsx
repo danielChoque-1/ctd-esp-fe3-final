@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className= 'navbar' >
       <div className='odonto'>
-      <img src="/public/DH.ico" alt="" />
+      <img src="/DH.ico" alt="" />
         <h3>ODONTO</h3>
       </div>
       <div className='links'>

@@ -22,7 +22,7 @@ const Card = ({ dentista }) => {
   return (
     <div className="card">
         {/* En cada card deberan mostrar en name - username y el id */}
-        <img className="card-doctor" src="/public/images/doctor.jpg" alt="card-doctor" />
+        <img className="card-doctor" src="/images/doctor.jpg" alt="card-doctor" />
         <h2>{dentista.name}</h2>
         <p>{dentista.username}</p>
 
