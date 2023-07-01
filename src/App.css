@@ -1,0 +1,62 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.card-doctor{
+  width: 250px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.odonto {
+  display: flex;
+  align-items: center;
+}
+.odonto img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  padding-left: 300px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  padding-right: 300px;
+}
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.button-home {
+  background-color: rgb(204, 204, 204);
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.button-home:hover {
+  background-color: rgb(150, 150, 150);
+}
+
+.footer-DH{
+  padding-left: 100px;
+  display: flex;
+  margin-right: 20px;
+  width: 100vw;
+}
