@@ -1,5 +1,5 @@
-import { useContext, useEffect, useMemo } from "react";
-import { createContext, useReducer, useState } from "react";
+import { useContext, useEffect } from "react";
+import { createContext, useReducer } from "react";
 import axios from 'axios'
 
 const ContextGlobal = createContext();
@@ -43,7 +43,7 @@ const ContextProvider = ({ children }) => {
     localStorage.setItem('destacados', JSON.stringify(state.destacados))
   }, [state.destacados])
 
-   return (
+  return (
     <ContextGlobal.Provider value={{
       state, dispatch
     }}>

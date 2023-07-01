@@ -1,7 +1,5 @@
-import React, {useContext} from "react";
+import React from "react";
 import { Link, Routes, json, useActionData } from "react-router-dom";
-import { routes } from "./utils/routes";
-import Detail from "../Routes/Detail";
 import { useContextGlobal } from "./utils/GlobalContext";
 
 

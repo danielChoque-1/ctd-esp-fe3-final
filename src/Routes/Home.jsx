@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Card from '../Components/Card'
-import axios from 'axios'
 import { useContextGlobal } from '../Components/utils/GlobalContext'
 
 

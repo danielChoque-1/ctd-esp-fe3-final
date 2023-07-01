@@ -4,20 +4,20 @@ import axios from 'axios'
 import { useContextGlobal } from '../Components/utils/GlobalContext'
 
 
- const Detail = () => {
+const Detail = () => {
 
   const {state, dispatch} = useContextGlobal()
   const  useParam  = useParams('')
 
-   const urlDentist = 'https://jsonplaceholder.typicode.com/users/' + useParam.id
-   useEffect(() => {
+  const urlDentist = 'https://jsonplaceholder.typicode.com/users/' + useParam.id
+  useEffect(() => {
     axios(urlDentist)
       .then(res => {dispatch({type:'SET_DENTISTA', payload: res.data})})
       .catch(error => console.log(error))
   }, [])
 
 
-   return (
+  return (
     <>
     <div>
       <h1>Detalle id {state.dentista.id}</h1>
@@ -60,4 +60,4 @@ import { useContextGlobal } from '../Components/utils/GlobalContext'
     
   )
 }
- export default Detail
+export default Detail
